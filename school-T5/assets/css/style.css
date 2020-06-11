@@ -1,0 +1,150 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.log-bg-color{
+    background-color: #2999ED ;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: #2999ED;
+    width: 40%;
+  }
+  
+  .right {
+    right: 0;
+    background-color: #2999ED;
+    width: 60%
+  }
+  .log-logo{
+      width:150px;
+      margin-bottom: 50px;
+      
+  }
+  .log-title{
+      font-size: 40px;
+      line-height: 48px;
+      color: #ffffff;
+      z-index: 10;
+      margin-top: 60px;
+  }
+.log-mar-lef-30{
+    padding-left: 10%;
+}
+.log-text-center{
+    text-align: center;
+}
+.log-mt-150px{
+    margin-top: 150px;
+}
+.log-mob-no{
+    border: none;
+    border-bottom: 2px solid #a0a0a0;
+}
+input[type=text],
+input[type=password]{
+    font-size: 18px;
+    line-height: 24px;
+}
+::placeholder{
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.inp-no{
+    margin-bottom: 30px;
+}
+
+.inp-pass{
+    margin-bottom: 50px;
+}
+
+.log-btn{
+    background-color: #2999ED;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 50px;
+}
+a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1130px){
+    .left{
+        display: none;
+        width: 0;
+    }
+    .right{
+        width: 100%;
+    }
+}
+/* Webkit-for-arrows */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.log-pos-rel{
+    position: relative;
+}
+.log-pos-abs{
+    position: absolute;
+}
+.log-logo-pos{
+    top: 30px;
+}
+.log-pos-fixed{
+    position: fixed;
+}
+.log-ani{
+    top: 20px;
+    z-index: -1;
+    opacity: 0.3;
+    margin-top: 50px;
+}
+.log-ani-bubble{
+    z-index: -1;
+    opacity: 0.5;
+    margin-top: 50px;
+    top: 20px;
+}
+.log-ani-bubble2{
+    z-index: -1;
+    opacity: 0.5;
+    right: 0;
+    bottom: 0vh;
+}
+.log-card-logo{
+    width:75px ;
+}
+.card-header{
+    background-color: #ffffff;
+    border-bottom: none;
+}
+.card{
+    border-radius: 60px 0 60px 0 !important;
+}
+.log-but-par{
+    margin-bottom: 20%;
+}
+/* --------------------------- */
+
